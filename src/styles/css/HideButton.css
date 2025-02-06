@@ -1,0 +1,8 @@
+.animation-hide{
+    transform: translateX(12px);
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.animation-hide.active{
+    /* left: 2px; */
+    transform: translateX(2px);
+}

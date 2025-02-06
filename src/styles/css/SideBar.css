@@ -1,0 +1,15 @@
+.width-sidebar{
+    transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media (max-width: 1920px) {
+    .width-sidebar{
+        width: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .width-sidebar{
+        width: 250px;
+    }
+}
